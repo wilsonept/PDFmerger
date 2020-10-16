@@ -12,10 +12,10 @@ import config
 from config import get_conf
 
 conf_data = get_conf(config)
-email = conf_data[email]
-password = conf_data[password]
-server = conf_data[server]
-port = conf_data[port]
+email = conf_data['email']
+password = conf_data['password']
+server = conf_data['server']
+port = conf_data['port']
 
 subject = 'RE:OCR'
 text = 'Check your file at attachment\n\nCreated by automatic python merger\n\nPython Power by Dimkin'
